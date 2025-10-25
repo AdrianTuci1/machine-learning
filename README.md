@@ -1,17 +1,30 @@
-# Tennis Performance Prediction
+# Machine Learning Projects
 
-![Rezultate Model](example.png)
+This repository contains various machine learning projects and learning materials organized by skill level and focus area.
 
-Acest script construiește un model de regresie liniară pentru a prezice câștigurile jucătorilor de tenis pe baza oportunităților de break point.
+## Directory Structure
 
-## Ce face scriptul:
+### Machine Learning Fundamentals
+- **tennis_ace/**: Tennis performance prediction Liniar Regression / Multiple Linear Regression
 
-1. **Încarcă datele** din fișierul `tennis_stats.csv`
-2. **Construiește un model de predicție** care folosește `BreakPointsOpportunities` pentru a prezice `Winnings`
-3. **Antrenează modelul** pe 80% din date și îl testează pe 20%
-4. **Calculează R²** pentru a măsura calitatea predicțiilor
-5. **Generează vizualizări**:
-   - Plot dispesie Real vs. Prezis
-   - Plot Feature vs. Outcome cu linia de regresie
+### Software Engineering for Machine Learning/AI Engineers
+*Coming soon...*
 
-Scriptul demonstră analiza predictivă în tenis, arătând relația dintre oportunitățile de break point și câștigurile financiare.
+### Intermediate Machine Learning
+*Coming soon...*
+
+### Building Machine Learning Pipelines
+*Coming soon...*
+
+## Getting Started
+
+Each directory contains its own README with specific instructions for that project or learning module.
+
+## Projects Overview
+
+### Tennis Performance Prediction
+A machine learning project focused on predicting tennis player performance using statistical data and machine learning algorithms.
+
+## Contributing
+
+This is a personal learning repository. Each project includes its own documentation and requirements.
