@@ -6,6 +6,7 @@ This repository contains various machine learning projects and learning material
 
 ### Machine Learning Fundamentals
 - **tennis_ace/**: Tennis performance prediction Liniar Regression / Multiple Linear Regression
+- **predict_card_fraud/**: */
 
 ### Software Engineering for Machine Learning/AI Engineers
 *Coming soon...*

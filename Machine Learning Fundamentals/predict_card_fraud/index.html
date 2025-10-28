@@ -1,0 +1,70 @@
+<html><head><style>html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  /*
+   * Table stuff
+   */
+  
+  .table-container {
+    width: max-content;
+    min-width: 100%;
+    padding: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .scroll-container {
+    overflow-y: auto;
+    overflow-x: none;
+    max-height: 14rem;
+    border: 1px solid #3E3E40;
+  }
+  
+  table {
+    font-family: monospace;
+    white-space: nowrap;
+    padding: 0.625rem;
+    width: 100%;
+    overflow-x: none;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 0.25rem;
+    background-color: transparent;
+  }
+  
+  tr {
+    height: 1.875rem;
+    font-size: 0.8125rem;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #E9EAEA;
+  }
+  
+  tr:nth-child(even),
+  th {
+    background-color: #FFFFFF;
+  }
+  
+  /*
+   * Chart stuff
+   */
+  
+  svg {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 100%;
+  }
+  </style></head>
+  <body><div class="table-container"><div class="scroll-container"><table><tr><th></th><th>step</th><th>type</th><th>amount</th><th>nameOrig</th><th>oldbalanceOrg</th><th>newbalanceOrig</th><th>nameDest</th><th>oldbalanceDest</th><th>newbalanceDest</th><th>isFraud</th></tr><tr><td>0</td><td>8</td><td>CASH_OUT</td><td>158007.12</td><td>C424875646</td><td>0.0</td><td>0.0</td><td>C1298177219</td><td>474016.32</td><td>1618631.97</td><td>0</td></tr><tr><td>1</td><td>236</td><td>CASH_OUT</td><td>457948.3</td><td>C1342616552</td><td>0.0</td><td>0.0</td><td>C1323169990</td><td>2720411.37</td><td>3178359.67</td><td>0</td></tr><tr><td>2</td><td>37</td><td>CASH_IN</td><td>153602.99</td><td>C900876541</td><td>11160428.67</td><td>11314031.67</td><td>C608741097</td><td>3274930.56</td><td>3121327.56</td><td>0</td></tr><tr><td>3</td><td>331</td><td>CASH_OUT</td><td>49555.14</td><td>C177696810</td><td>10865.0</td><td>0.0</td><td>C462716348</td><td>0.0</td><td>49555.14</td><td>0</td></tr><tr><td>4</td><td>250</td><td>CASH_OUT</td><td>29648.02</td><td>C788941490</td><td>0.0</td><td>0.0</td><td>C1971700992</td><td>56933.09</td><td>86581.1</td><td>0</td></tr></table></div></div></body></html>
